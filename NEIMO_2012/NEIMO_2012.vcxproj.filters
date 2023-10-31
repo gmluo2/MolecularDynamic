@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tamd\amber_pars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\atom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAMD\atom_sr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAMD\atom_sr_interact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\auto_correlation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\bound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-cmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-md-cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-md.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-mm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-mpi-md-cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cg-rdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cgmd_polymer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\CMM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\CMM_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\dipole-distrbt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\distribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\distribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\dstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\dstruct1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\e-rdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\EwaldSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\EwaldSumVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="export1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\fmd_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\gcmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAMD\gpu_md_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAMD\gpu_slab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact-def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interact_gc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Interaction1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\MD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\md_analysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\md_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\md_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\MD_POLYMER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\MD_SM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mdcell-nhc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mdcell_nhc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDInforDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mdvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\MM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mol-cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\Mol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MolOperateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mpi_md.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\mpi_md_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\NEIMO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEIMOMD_DLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\nhc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\NPT_MD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\pmf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\prof-old.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\prof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\ranlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\rdf-distribt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\read.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\ReadMDProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\show.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\show_md.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\slab_md.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\spme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\spme_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\spme_interact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\spme_interact_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\sr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\var.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\vmd_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\wham.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tamd\ZMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NEIMOMD_DLL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NEIMOMD_DLL.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NEIMOMD_DLL.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="debug\BuildLog.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tamd\amber_pars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\atom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\atom_sr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\atom_sr_interact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\atom_sr_interact_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\auto_correlation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\bound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-cluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-cmm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-md-cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-md.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-mm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-mpi-md-cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cg-rdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cgmd_polymer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\cluster1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\CMM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\CMM_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\com.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\dipole-distrbt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\distribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\e-rdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\EwaldSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="export1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\fmd_cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\gcmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\gpu_md_cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\gpu_slab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAMD\gpu_slab_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interact1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interact2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interact3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interact4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interact_gc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Interaction1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\linpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\MD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\md_cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\MD_POLYMER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\MD_POLYMER1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\MD_SM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDInforDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\MM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\mol-cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\Mol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MolOperateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\mpi_md.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\mpi_md_cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\NEIMO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NEIMOMD_DLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\nhc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\NPT_MD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\pmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\pmf_mdcell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\prof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\ranlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\rdf-distribt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\read.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\ReadMDProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\show.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\show_md.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\slab_md.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\slab_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\spme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\spme_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\spme_interact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\spme_interact_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\sr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\vmd_cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\wham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tamd\ZMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

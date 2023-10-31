@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\NEIMOMD_DLL.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "NEIMOMD_DLL.dll"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "NEIMOMD_DLL.dll"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR_MDINFOR DIALOGEX 400, 65486, 333, 73
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "MD Infor : "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "loop # : ",IDC_STATIC,8,8,34,8
+    EDITTEXT        IDC_EDIT_LOOP,44,8,62,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "saved : ",IDC_STATIC,105,8,36,8
+    EDITTEXT        IDC_EDIT_SAVED,143,8,65,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "to run : ",IDC_STATIC,216,8,36,8
+    EDITTEXT        IDC_EDIT_TORUN,255,8,65,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "Ek [kT] : ",IDC_STATIC,9,22,33,8
+    EDITTEXT        IDC_EDIT_EK,44,22,62,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "Ep [kT] : ",IDC_STATIC,111,22,30,8
+    EDITTEXT        IDC_EDIT_POTENTIAL,143,22,65,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "Total [kT] : ",IDC_STATIC,214,22,38,8
+    EDITTEXT        IDC_EDIT_ETOTAL,255,22,65,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Current : ",IDC_STATIC,3,0,324,35
+    GROUPBOX        "Infor. : ",IDC_STATIC,3,34,324,38
+    EDITTEXT        IDC_EDIT_INFOR,5,44,320,26,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL
+END
+
+IDD_DIALOG_CONSTRUCT_MMOLECULE DIALOGEX 0, 0, 357, 153
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Constructing Macro-Molecule : "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         " molecule name : ",IDC_CHECK_MOLNAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,24,67,10
+    EDITTEXT        IDC_EDIT_MOLECULE_NAME,77,23,173,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "create",IDC_BUTTON_CREATE_MOLNAME,315,30,34,14
+    CONTROL         "read molecule from : ",IDC_CHECK_READFROMFILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,65,80,10
+    EDITTEXT        IDC_EDIT_MOL_FNAME,91,64,144,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "read",IDC_BUTTON_READMOL_FROMFILE,315,63,34,14
+    PUSHBUTTON      "Browse",IDC_BUTTON2,283,64,30,12
+    GROUPBOX        "create molecule with molecule name : ",IDC_STATIC,4,12,349,39
+    GROUPBOX        "read molecule struct from file : ",IDC_STATIC,4,52,349,28
+    COMBOBOX        IDC_COMBO_COMMAND,4,134,341,136,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "command : ",IDC_STATIC,4,110,349,39
+    CONTROL         "run command : ",IDC_CHECK_RUNCOMMAND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,121,65,10
+    DEFPUSHBUTTON   "run",IDC_BUTTON3,316,119,32,12
+    EDITTEXT        IDC_EDIT_NBASE,253,31,40,12,ES_AUTOHSCROLL
+    LTEXT           "base",IDC_STATIC,263,21,16,8
+    EDITTEXT        IDC_EDIT_MOLECULE_TANGLE,77,36,173,12,ES_AUTOHSCROLL
+    LTEXT           "Tor-angle / monomer : ",IDC_STATIC,3,38,74,8
+    PUSHBUTTON      "clear monitor",IDC_BUTTON_CLEAR_MONITOR,295,1,50,14
+    CONTROL         "read multi-molecules : ",IDC_CHECK_READMULTI_MOL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,94,83,10
+    EDITTEXT        IDC_EDIT_MULTI_MOL_FNAME,92,93,144,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "read",IDC_BUTTON_READ_MULTI_MOL_FROMFILE,315,91,34,14
+    PUSHBUTTON      "Browse",IDC_BUTTON_BROWSE_MULTI_MOL_FNAME,283,93,30,12
+    GROUPBOX        "read milti-molecule struct from file : ",IDC_STATIC,4,81,349,28
+    COMBOBOX        IDC_COMBO_MOL_TYPE1,239,64,42,13,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MOL_TYPE2,239,93,42,13,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOGBAR_MDINFOR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 330
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_DIALOG_CONSTRUCT_MMOLECULE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 152
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_CONSTRUCT_MMOLECULE DLGINIT
+BEGIN
+    IDC_COMBO_MOL_TYPE1, 0x403, 9, 0
+0x616d, 0x7263, 0x6d6f, 0x6c6f, "\000" 
+    IDC_COMBO_MOL_TYPE1, 0x403, 15, 0
+0x6f63, 0x7261, 0x6573, 0x672d, 0x6172, 0x6e69, 0x6465, "\000" 
+    IDC_COMBO_MOL_TYPE2, 0x403, 9, 0
+0x616d, 0x7263, 0x6d6f, 0x6c6f, "\000" 
+    IDC_COMBO_MOL_TYPE2, 0x403, 15, 0
+0x6f63, 0x7261, 0x6573, 0x672d, 0x6172, 0x6e69, 0x6465, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\NEIMOMD_DLL.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

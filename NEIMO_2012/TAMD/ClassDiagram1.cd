@@ -1,0 +1,2041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TORSION_PARS" Collapsed="true">
+    <Position X="120.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAMAEICAAA=</HashCode>
+      <FileName>TAMD\amber_pars.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMM_PARS" Collapsed="true">
+    <Position X="19" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQBAEAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATOM_COMM_PARS" Collapsed="true">
+    <Position X="16.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAEAAAgAAAAAAAAAAAAAAAAgAwAAAAAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PARS_DATABASE&lt;TPAR&gt;" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAAAAAAADAAACAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATOM_COMM_PARS_DATABASE" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOUND_BASE&lt;INDX_TYPE, N&gt;" Collapsed="true">
+    <Position X="11" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_BOUND_DB&lt;BPAR, INDX_TYPE, N&gt;" Collapsed="true">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAgAAAAAAAAIAAAgAAAAAAIADAACAAAAAAAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAIRWISE&lt;OPERATOR&gt;" Collapsed="true">
+    <Position X="8.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAQAAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAIRWISE_DB&lt;PAIRWISE&gt;" Collapsed="true">
+    <Position X="0.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>TAMD\atom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DIHEDRAL_INTERACT" Collapsed="true">
+    <Position X="106.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAEGABAAQAAAQgIAACAIQAAQAEAAEICIACAIAMAEAA=</HashCode>
+      <FileName>TAMD\bound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINGE_CONSTRAINT_FORCE" Collapsed="true">
+    <Position X="117.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAkAMAABAAAAOAAAAAAQABAAAABAAIQIwEAEHAAQAA=</HashCode>
+      <FileName>TAMD\bound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MONOMER_LINK_RELSHIP" Collapsed="true">
+    <Position X="117.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABIAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cluster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MONOMER_GROUP_HINGE" Collapsed="true">
+    <Position X="115.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cluster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MONOMER_GROUP" Collapsed="true">
+    <Position X="113.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAEAAAAAAAAAAAAEEAAEAAAAAAAAAIAA=</HashCode>
+      <FileName>TAMD\cluster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMM_CELL&lt;atom&gt;" Collapsed="true">
+    <Position X="3.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAACEAAAAAAAABAxAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SURF_DIPOLE" Collapsed="true">
+    <Position X="112" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAFAAAAAAAAAAAAAQAAAACAAAAAACIAAAAAAAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMM_CELL3D&lt;atom&gt;" Collapsed="true">
+    <Position X="122.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAwAICAEAAQCCAADEAQABAIgwAIBA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CELL_THREAD_VARS&lt;atom&gt;" Collapsed="true">
+    <Position X="93" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAEEAABAAIAAAAAAAAAIJAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CELL_THREAD_VARS_1&lt;atom, TVAR&gt;" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEAAAAEAAAEEAABAAAAAgAAAAAAIIAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHECK_CELL_THREAD_VARS&lt;atom&gt;" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAEEAADAAAAACAAAAAAIIgA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_CELL_THREAD_VARS&lt;MACROMOL, atom&gt;" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAEEAAAAAAQEEAAAAAQAAAAAAAAAAIAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_CELL_THREAD_VARS_1&lt;MACROMOL, atom, TVAR&gt;" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAACAAEEAAAAAAAEEAAAAAAAAAAAAgAAIAAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SM_CELL_THREAD_VARS&lt;SM, CMM_CLUSTER&gt;" Collapsed="true">
+    <Position X="30" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAEAAAAAAAAEEACAAAAQAAAAAAgAAIAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOperateVAR&lt;TCLUSTER, TMM, TSM, TPM, CELL, MDCELL&gt;" Collapsed="true">
+    <Position X="119" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAMAEkoAgAQAAAAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOperateThreadVAR&lt;TCLUSTER, TMM, TSM, TPM, CELL, MDCELL, TVAR, TRES&gt;" Collapsed="true">
+    <Position X="39" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAABAAAABAAAI=</HashCode>
+      <FileName>TAMD\CMM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMMAND" Collapsed="true">
+    <Position X="115.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAGgAACAAAAAAAAAEAAAAAAAIAAgA=</HashCode>
+      <FileName>TAMD\command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="complex" Collapsed="true">
+    <Position X="117.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GhAAAAAAAAAAAAAAYAUAAQAAAAAAAAAAAABgAAAAAIA=</HashCode>
+      <FileName>TAMD\complex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LIST&lt;T&gt;" Collapsed="true">
+    <Position X="119" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAABAEIAAAAAAAIAAAIAAASAAAEAAAAICAAA=</HashCode>
+      <FileName>TAMD\dstruct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TREE&lt;T&gt;" Collapsed="true">
+    <Position X="122.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAIAAAAAAAAAAAAAEAAEAQIAAAAAAAQCAAA=</HashCode>
+      <FileName>TAMD\dstruct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHAIN&lt;T&gt;" Collapsed="true">
+    <Position X="112" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAEAEAAAAAAAAAAAAAAAAAIEAAQAIAAAA=</HashCode>
+      <FileName>TAMD\dstruct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARRAY&lt;T&gt;" Collapsed="true">
+    <Position X="113.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAMIAAAgAAAAAAAIAAAAAAAAACAAEwAAAAAAAAA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_ARRAY&lt;T&gt;" Collapsed="true">
+    <Position X="119" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAwAAABAAAACCgAAAAAAACAAA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_MATRIX&lt;T&gt;" Collapsed="true">
+    <Position X="106.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAAAAAAAAAAQAAQAAAAABAAAAEggAAAAQAAA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_ASYM_MATRIX&lt;T&gt;" Collapsed="true">
+    <Position X="122.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAAAAAAAAAAQAgQAAAAAAAAAAEgAAAAAYAAA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_CMATRIX&lt;T&gt;" Collapsed="true">
+    <Position X="124.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAACAAAAAAAAAAEAAQAAQAAAAAAAAAAEgAAAAAQAAA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_ASYM_CMATRIX&lt;T&gt;" Collapsed="true">
+    <Position X="120.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAAAAAAAAAAcAAQAAAAAAAAAAQgAAAAAQABA=</HashCode>
+      <FileName>TAMD\dstruct1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GENERAL_MOLECULE" Collapsed="true">
+    <Position X="110.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBEAAAAAABMAAWAAAAgAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>export1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PICK_SCATT_STRUCT" Collapsed="true">
+    <Position X="106.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAQAEgEAAAAAEAAQCAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>export1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="READ_MD_PROC_FILE" Collapsed="true">
+    <Position X="119" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAAAAAAACABAAAAQABAABAIAMAAABCAABAA=</HashCode>
+      <FileName>export1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGATOM_SCATT_PARS" Collapsed="true">
+    <Position X="19" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>export1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMD_THREAD_PAR" Collapsed="true">
+    <Position X="52.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABEAAAIAAgAAEYAAAAEAABAAAQAFAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\fmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PM_FMD_THREAD_PAR" Collapsed="true">
+    <Position X="50.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAEAAAAIAAABAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\fmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SM_FMD_THREAD_PAR" Collapsed="true">
+    <Position X="52.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAAIAAEAAAAAAQAAAAAAAgAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TAMD\fmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_FMD_THREAD_PAR" Collapsed="true">
+    <Position X="54.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAEgAAAAAEQCAQACAAAAAgAAAAAAgAAAAQAAAA=</HashCode>
+      <FileName>TAMD\fmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD_VarBuffer0&lt;MD_CELL, BASIC_CLUSTER&gt;" Collapsed="true">
+    <Position X="25.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIDAAAAAQAAAAwAAACAQAgAAAABAwEAAIACACCgAA=</HashCode>
+      <FileName>TAMD\gcmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCMD_VarBuffer&lt;MD_CELL, BASIC_CLUSTER&gt;" Collapsed="true">
+    <Position X="25.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAE=</HashCode>
+      <FileName>TAMD\gcmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD_VARS0&lt;MD_CELL, BASIC_CLUSTER&gt;" Collapsed="true">
+    <Position X="18.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQIDAAAAAAABgAwAAADCQAgAAAEhAwMAAIACACCgAg=</HashCode>
+      <FileName>TAMD\gcmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCMD_VARS&lt;MD_CELL, BASIC_CLUSTER&gt;" Collapsed="true">
+    <Position X="18.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAk=</HashCode>
+      <FileName>TAMD\gcmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC_SVar" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAQAAIAACAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC_InteractVar" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC_Res" Collapsed="true">
+    <Position X="23.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAIAAAQAAAAQAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC_InteractRes" Collapsed="true">
+    <Position X="16.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAAAAAQAAAAQAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC_LVar" Collapsed="true">
+    <Position X="18.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAQAAIAAAAgBAAAIAABAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractVar" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EInteractVar" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAGQAAAAACAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractRes" Collapsed="true">
+    <Position X="16.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAsIAEAAAAAAAAQAAAASAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMM_THREAD_VARS&lt;CMM_CLUSTER, VAR, RES&gt;" Collapsed="true">
+    <Position X="43.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEAAAAIAAAEEAABAAAAAAEAAAABAIAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_CMM_THREAD_VARS&lt;MM, CMM_CLUSTER, VAR, RES&gt;" Collapsed="true">
+    <Position X="48" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAEEAAAIAAAEEAAAEEAAAAAACAABAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M_CMM_THREAD_VARS&lt;M, CMM_CLUSTER, VAR, RES&gt;" Collapsed="true">
+    <Position X="57" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEgAAAIAAAEEAAAAIAAAAgAAAAFAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SYS_THREAD_VARS&lt;SYS, ATOM, VAR, RES&gt;" Collapsed="true">
+    <Position X="59.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAhAAAIAAAEEAAAEAAEAQgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TorsionVar" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HingeConstraintVar" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialObject" Collapsed="true">
+    <Position X="15.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAgAAAAAAAQAAAFAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOG" Collapsed="true">
+    <Position X="15.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAgAAAAAAAAAQAAAgAAAAAIABIAAAAAAAAA=</HashCode>
+      <FileName>TAMD\log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NR_NonLinearEqs&lt;N, DERIVED_CLASS&gt;" Collapsed="true">
+    <Position X="24.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAIAAAAAAEAABAAQAAABAQAAAAgBAAA=</HashCode>
+      <FileName>TAMD\Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITER_SAVE" Collapsed="true">
+    <Position X="112" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAEAEQAAAEAEAAAAACQACQAAIIABAEgAAAIAAAgA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD_SAVE" Collapsed="true">
+    <Position X="122.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgQAAAACAACAAAIAAAAEAAAAAAEAGAAAABAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HOOVER_DYN" Collapsed="true">
+    <Position X="6.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgCAAAAAAAAEAAAAAAAAAAAAEAAAkAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_HOOVER_DYN" Collapsed="true">
+    <Position X="7.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACCAgAAAAAQIAAAMAAAABAAAAAIACAEAAAAAAAAAQ=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_MD_SAVE" Collapsed="true">
+    <Position X="119" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEEAAACAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD_BASE" Collapsed="true">
+    <Position X="13" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAQAAACAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_MD_BASE" Collapsed="true">
+    <Position X="10.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAgAAAAAgABAIAAAAAEQABAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LFVERLET_MM_MD" Collapsed="true">
+    <Position X="10.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAACAgAAAAAAAAAAAAAAAAgAAAAAEQAAEACIAAAGAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SM_MD_SAVE" Collapsed="true">
+    <Position X="108.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SM_MD_BASE" Collapsed="true">
+    <Position X="12.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAAAAAAAAAAAAIAgAABAAAAAAABQAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LFVERLET_SM_MD" Collapsed="true">
+    <Position X="12.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAAQAAAABAAAAAAAAAAAEAAACACAAAAEAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PM_MD_SAVE" Collapsed="true">
+    <Position X="108.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PM_MD_BASE" Collapsed="true">
+    <Position X="9.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAAAAAAAAAgAABABAAAAAAQAAAAAQAA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LFVERLET_PM_MD" Collapsed="true">
+    <Position X="9.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAAQAAAAAAAAAAAAAAAAEAAIAACAAAAEQA=</HashCode>
+      <FileName>TAMD\MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MD_CELL_DIM" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_HDYN" Collapsed="true">
+    <Position X="6.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAQAAAAgAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_VELOCITY&lt;N&gt;" Collapsed="true">
+    <Position X="120.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_DYN_BUFFER&lt;N&gt;" Collapsed="true">
+    <Position X="124.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAEABAAAABBABIAAAAASBoAEAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOL_POL&lt;MOL&gt;" Collapsed="true">
+    <Position X="110.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMOL_MD_CELL" Collapsed="true">
+    <Position X="17.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAhAEOGJAAIcABcAaCIBFZCAQBggCIQEEAAANDaCAAY=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD_THREAD_PAR" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABGAgAAAAAAAEYAAAAAAABAAAQAEAAQBAACAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SM_MD_THREAD_PAR" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEgAAAAAQAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_MD_THREAD_PAR" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAEAAAAAAFQAAQACAAAAAAAAgAABgAAAAQAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_Job&lt;MDCELL&gt;" Collapsed="true">
+    <Position X="106.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAQAAAgQAAAggAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_HDYN_THREAD_VARS&lt;MDCELL&gt;" Collapsed="true">
+    <Position X="32.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAABAEEAAAAAAUAAAgAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_ThreadJob&lt;MDCELL&gt;" Collapsed="true">
+    <Position X="49" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDCELL_CMM_ThreadJob&lt;MDCELL, CMM&gt;" Collapsed="true">
+    <Position X="51.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INTERACT" Collapsed="true">
+    <Position X="122.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAIAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TAMD\md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_CMM_JOB&lt;MM_JOB, CMM&gt;" Collapsed="true">
+    <Position X="53.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAgAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD_POLYMER.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_CMM_INTERACT_JOB&lt;MM_JOB, CMM&gt;" Collapsed="true">
+    <Position X="55.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAAAQAAAAAAEAgAAQQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MD_POLYMER.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMDInforDlg" Collapsed="true">
+    <Position X="120.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgBgBAAABAKAAAAghBAAAgKACBAAAAAFIQAAAACAIA=</HashCode>
+      <FileName>MDInforDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DIHEDRAL_DATABASE" Collapsed="true">
+    <Position X="124.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAACAAAAAAAAAAAAAAIAAAAAAEAACAACEAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJ_PARS" Collapsed="true">
+    <Position X="120.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAARAAAAAAgAAAAABEAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMPSOLV_PARS" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAABAACQAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_ATOM&lt;DERIVED_ATOM&gt;" Collapsed="true">
+    <Position X="12.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACBAAAAAAQCBQAgEABAAAAAABAAAAIAADAIAAAAQ=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_BOUND_&lt;T&gt;" Collapsed="true">
+    <Position X="22.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MATOM" Collapsed="true">
+    <Position X="13.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAATAAAAgAEAACAAAACAAAAAQAKAAAAAEgAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLUSTER_IMPSOLV_PARS" Collapsed="true">
+    <Position X="25.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLUSTER_IMPSOLV_PARS_DATABASE" Collapsed="true">
+    <Position X="113.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAEAQAAAAAAAAAAAACAAACAAAAACAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BASIC_KINEMATIC" Collapsed="true">
+    <Position X="117.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KINEMATIC" Collapsed="true">
+    <Position X="115.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAABABEAAACA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BASIC_DYN" Collapsed="true">
+    <Position X="115.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAAAAAAABBAAAAIAAAAAAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INVERSE_NE" Collapsed="true">
+    <Position X="106.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQCAAAAAAAAAAACAABAAAAgAICBAgAQAADCJFAEI=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINGE&lt;T&gt;" Collapsed="true">
+    <Position X="113.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAEBAAAAIgAACAAAAAAAggAgAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMM_IMAGINE&lt;T&gt;" Collapsed="true">
+    <Position X="124.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAAAAIAAAAAAAAAAAAAQEAAAAAAABA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_BUFF&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAgCQEAAgQEQAAAAEACAAAAAACAACCAAAAAAAAAAgA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITERATOR&lt;T, BUFF&gt;" Collapsed="true">
+    <Position X="113.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACEAAAAAAAAAAQECQAAgAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMAG_RELSHIP&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgCwAAAAQRQAAAAEACAAAAgACAACCAAAAAAgAAAgA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RELSHIP_ITERATOR&lt;T, RELSHIP&gt;" Collapsed="true">
+    <Position X="106.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAAAAQEAQAAghAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJ_RELSHIP" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SPME_RELSHIP" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMPSOLV_RELSHIP&lt;CLUSTER&gt;" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_BASIC_CLUSTER&lt;TATOM&gt;" Collapsed="true">
+    <Position X="19.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIMiAACAABABEAQEUQAAASAAAEAEAICMAAACCA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMPSOLV_F" Collapsed="true">
+    <Position X="120.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAIAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BASIC_CLUSTER" Collapsed="true">
+    <Position X="20.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAoUAAEAIQQIAAAAGEJAoAACAQCKgAcAABQFAogSAg=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLUSTER_ROT" Collapsed="true">
+    <Position X="117.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAIAEAAAAAAAAQQAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOL_BASE_MOVEMENT" Collapsed="true">
+    <Position X="106.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAGAAAAAEAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLUSTER_MASS_CENTER_DYN" Collapsed="true">
+    <Position X="115.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAACAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HINGE_CONSTRAINT" Collapsed="true">
+    <Position X="115.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAARgA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DIHEDRAL&lt;TATOM, TORSION_PAR&gt;" Collapsed="true">
+    <Position X="122.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLUSTER" Collapsed="true">
+    <Position X="20.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBgAECCKABAQAAAAQCQACQAUMAAgURABABwAIAAg=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOL_DYN_KIN" Collapsed="true">
+    <Position X="108.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAARBAAAAAAAAAAABAAIQBQAQADJQAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GROUP&lt;T&gt;" Collapsed="true">
+    <Position X="112" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAEEAAgAQAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMOLECULE" Collapsed="true">
+    <Position X="124.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAnAHhgViGIAqRABgCCBBADEIgEhSgJSVcjQBGCGAAw=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RELATIONSHIP" Collapsed="true">
+    <Position X="124.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABIAAAAAAAAAAAECAkAAAACAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MONOMER" Collapsed="true">
+    <Position X="112" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAFAEAAEAACAAAAAAARABAEAAAAAAAgAgQAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_THREAD_VARS" Collapsed="true">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAAAAAAEAAAAAAAAEAIAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MACROMOL_THREAD_VARS&lt;MACROMOL&gt;" Collapsed="true">
+    <Position X="75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAEAAAAAAAAEAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_THREAD_VARS&lt;MACROMOL&gt;" Collapsed="true">
+    <Position X="68.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAAAAAAAAAAAAAAAEEAAAEAAEAAAACAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_THREAD_VARS_1&lt;MACROMOL, TVAR&gt;" Collapsed="true">
+    <Position X="70.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAQAAAAAEEAAAEAAEAABACAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_THREAD_VARS_2&lt;MACROMOL, TVAR&gt;" Collapsed="true">
+    <Position X="77.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgAAAAAAABAAAAAEEAAAEAAEAAAACAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_THREAD_VARS_3&lt;MACROMOL, VVAR, RESVAR&gt;" Collapsed="true">
+    <Position X="81.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAFAAAAAEEAAAEAAEAABACAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNC_VAR" Collapsed="true">
+    <Position X="57.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAAAEAAAAAAAABAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JOB_THREAD_VARS&lt;JOB&gt;" Collapsed="true">
+    <Position X="52.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAMEAAAAAAAAAAgAAAAAAAE=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_GENERAL_JOB_VAR&lt;JOB, VAR1, VAR2&gt;" Collapsed="true">
+    <Position X="106.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAIAAAQABAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\MM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CELL_FILE&lt;MM, SM, PM&gt;" Collapsed="true">
+    <Position X="120.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAMAIEAAAAAAAgAAAgEAAAAAAIAAAABgAA=</HashCode>
+      <FileName>TAMD\mol-cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMOLECULE" Collapsed="true">
+    <Position X="110.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAVAAIACAAAAACBBAIACCAAAgCABAARBHACAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PMOLECULE" Collapsed="true">
+    <Position X="112" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAFAAAAAAQAAAARDAAAAAAAAACABDARBAAAAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M_THREAD_VARS&lt;T&gt;" Collapsed="true">
+    <Position X="34.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAEEAAAAAAEAEgAAACAAAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M_THREAD_VARS1&lt;T, TVAR&gt;" Collapsed="true">
+    <Position X="36.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAIAAABAAEEAAAAAAEAEgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M_THREAD_VARS2&lt;T, TVAR&gt;" Collapsed="true">
+    <Position X="41.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAIAAIAAAEEAAAAAAEAEgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M_THREAD_VARS3&lt;T, VVAR, RESVAR&gt;" Collapsed="true">
+    <Position X="45.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAIAAAEEAAAAAAEAEhAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Mol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMolOperateDlg" Collapsed="true">
+    <Position X="106.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAyAA1IIAgACEYMApBEAgmJCCACAqhINCYBFAAAgFE=</HashCode>
+      <FileName>MolOperateDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_EF_VAR" Collapsed="true">
+    <Position X="113.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAgAAAQAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_EF_RES" Collapsed="true">
+    <Position X="112" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAACAAAEAAAAAAAAAGAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_IMPSOLV_VAR" Collapsed="true">
+    <Position X="117.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM_IMPSOLV_RES" Collapsed="true">
+    <Position X="115.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAMAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MACROMOL_RUN_BKGD&lt;MACROMOL&gt;" Collapsed="true">
+    <Position X="72.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CELL_MACROMOL_RUN_BKGD&lt;MACROMOL, atom&gt;" Collapsed="true">
+    <Position X="79.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAEAAAAAAAAAABAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\mpi_md_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEIMO_THREAD_VARS" Collapsed="true">
+    <Position X="90.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAEAAAAAAAAEAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\NEIMO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNEIMOMD_DLLApp" Collapsed="true">
+    <Position X="112" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgBAAAgBAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>NEIMOMD_DLL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NHC&lt;M&gt;" Collapsed="true">
+    <Position X="24.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAQAFAAAAAICAARBABAmAEAAAAAABEIQAgBAAAIA=</HashCode>
+      <FileName>TAMD\nhc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISOTROPIC_PDYN" Collapsed="true">
+    <Position X="110.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAQABIQBAAYAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISOTROPIC_P_MD_SAVE" Collapsed="true">
+    <Position X="108.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQBAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISOTROPIC_P_MD_BASE" Collapsed="true">
+    <Position X="0.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAIAAAAAAAAAAAAAAgAABAAAAAAAAQAEAAAAAI=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LFVERLET_ISOTROPIC_P_MD" Collapsed="true">
+    <Position X="0.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQBAAAAQAAAAAAAAAggAAAAAAAAACADAAAAAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NPT&lt;MDCELL, CMM&gt;" Collapsed="true">
+    <Position X="8.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAAAAAASAAAAAAEAAEAAIIAQQAAAABAAAAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISOTROPIC_NPT&lt;MDCELL, CMM&gt;" Collapsed="true">
+    <Position X="8.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAABAAAAAACAAAAAIAAAAAQBIAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISOTROPIC_NPT_CELL" Collapsed="true">
+    <Position X="8.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\NPT_MD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_PROFILE_1D_&lt;T&gt;" Collapsed="true">
+    <Position X="110.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAUAAAAAAQAARAAAAAAAAAAABQAADAAAIA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_PROFILE_&lt;Tx, Ty&gt;" Collapsed="true">
+    <Position X="108.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACQAAAAAAQAAAAAAAAAAAAAAAFgAAAAAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_PROFILE_EB_&lt;Tx, Ty, Ts&gt;" Collapsed="true">
+    <Position X="112" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEACAAAAAAAQAAAAAAAABAAAAAIBgAAAAAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_PROFILE_1D&lt;Tx, Ty&gt;" Collapsed="true">
+    <Position X="5.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAACEAAABAAQAAAAAAAAAAAAAAAFgABAAAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_PROFILE&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAABAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPROF" Collapsed="true">
+    <Position X="5.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MPROFILE&lt;Tx, Ty, N&gt;" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAgQAAAAACAAAAAAAEAFgAAAABAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF_DPROF" Collapsed="true">
+    <Position X="20.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAQAAAAAAAAAQAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MEMORY_2D&lt;dim, T&gt;" Collapsed="true">
+    <Position X="108.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAABAAAAA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MEMORY_3D&lt;dim, dim_2d, T&gt;" Collapsed="true">
+    <Position X="110.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAABAAACA=</HashCode>
+      <FileName>TAMD\prof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSplineFuncs" Collapsed="true">
+    <Position X="119" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAYAAAAIAAEAAAAAgAAAAAAAEAIAAIACChAABAABAA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSplineFunc&lt;nD&gt;" Collapsed="true">
+    <Position X="18.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIAAEAAEAAAAAAAAAAUAAACAAACACAAAAAAA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TIME" Collapsed="true">
+    <Position X="119" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAgAAAAAABAAAQgAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>TAMD\time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_VECTOR_BASE&lt;T, N&gt;" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAIAAACAAAAAYAUAAQAAAAAEAAAAEBAAAAAAAIA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VECTOR3" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAAACBAAA4AUAAQAAAAIAAFAAAAABgAAAAqA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVECTOR&lt;T, N&gt;" Collapsed="true">
+    <Position X="113.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VECTOR&lt;N&gt;" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVECTOR&lt;N&gt;" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MATRIX_BASE&lt;T, N&gt;" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAEAAAAAAAAAAAYAUAAQAAAAAEAAAAEgAACAAAAIA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMATRIX&lt;N&gt;" Collapsed="true">
+    <Position X="20.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MATRIX&lt;N&gt;" Collapsed="true">
+    <Position X="20.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="R" Collapsed="true">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAEQAQAAAAAAAABAAAAAAAAAAQA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMATRIX&lt;N&gt;" Collapsed="true">
+    <Position X="119" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAAAAAAAQAAAAAEAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QMATRIX&lt;N&gt;" Collapsed="true">
+    <Position X="115.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAAAAQAAAAAEAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLEX_MMOL_CELL" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiEACIQAIAAAAQAoCAAAAAQCAAAAAJAAAAAA=</HashCode>
+      <FileName>TAMD\vmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMOL_VMD_CELL" Collapsed="true">
+    <Position X="15.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAhAkGGRAAAcADMASCAAFJCAQBwgCAAEEJAAIDaAAAY=</HashCode>
+      <FileName>TAMD\vmd_cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_velocity_correlation_::VATOM" Collapsed="true">
+    <Position X="106.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>TAMD\auto_correlation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_velocity_correlation_::VCELL" Collapsed="true">
+    <Position X="113.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\auto_correlation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_velocity_correlation_::V_AutoCorr" Collapsed="true">
+    <Position X="124.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>TAMD\auto_correlation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMM_MD_CELL" Collapsed="true">
+    <Position X="10.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIABAACBAAAMQBMAAAAAFJKAQAgAAAAAEAACBGCAAAY=</HashCode>
+      <FileName>TAMD\cg-md-cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMD_THREAD_PAR" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAAAAAAgAAEQAAACgAABAAAQAAAAABAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md-cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMM_MD_THREAD_PAR" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAEAAAAAEEAAAQACAAAAAACAAAAAAAAAAQAIAA=</HashCode>
+      <FileName>TAMD\cg-md-cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGSM_MD_THREAD_PAR" Collapsed="true">
+    <Position X="21" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACEAAAAAAQAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md-cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMM_MD_SAVE" Collapsed="true">
+    <Position X="108.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMM_MD_BASE" Collapsed="true">
+    <Position X="13" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAgAAAAggAAAAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::LFVERLET_CGMM_MD" Collapsed="true">
+    <Position X="13" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABEAAAQAAAAAAIAAAgAAAAAEAAAAACAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CG_MD_VARS" Collapsed="true">
+    <Position X="122.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAIAAAIAAAAAAAAAAAAAAAAQAAgAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGSM_MD_SAVE" Collapsed="true">
+    <Position X="110.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGSM_MD_BASE" Collapsed="true">
+    <Position X="15.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAEAAAAAAAAAAAgAAAAAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::LFVERLET_CGSM_MD" Collapsed="true">
+    <Position X="15.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABEAAAQAAAAAAAAAAAAAAAAEAAAAACAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-md.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGATOM_COMM_PARS" Collapsed="true">
+    <Position X="21.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAABEAAAAAgAAAAAAACAAAAAAAAgAQAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGATOM_COMM_PARS_DATABASE" Collapsed="true">
+    <Position X="25.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::FENE_BOUND" Collapsed="true">
+    <Position X="117.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAAIAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::BOUND_PROF" Collapsed="true">
+    <Position X="11" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAACAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGBOUND_DB" Collapsed="true">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGBOUND_DIPOLE_DISTRBT" Collapsed="true">
+    <Position X="13.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAACAEAAAABAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGBOUND_DIPOLE_DISTRBT_DB" Collapsed="true">
+    <Position X="5.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGATOM" Collapsed="true">
+    <Position X="11.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAADAAAAAAAAAAACAICAAAAAAACAAAAAAgAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::KINETIC" Collapsed="true">
+    <Position X="117.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQBEAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::DYNAMIC" Collapsed="true">
+    <Position X="110.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAABAAAAIAAAAAAAAQAQAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::LOCAL_RELSHIP" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CG_CLUSTER" Collapsed="true">
+    <Position X="18.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQQAEA4AAAAECAWAJCIAAAAAgAgAMAABBEEIACAg=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGBOUND" Collapsed="true">
+    <Position X="22.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAjAAAAAAAIAAAAAAAAAAAAAAUAAAAAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGMM_KIN_DYN" Collapsed="true">
+    <Position X="106.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABgABAJBAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CG_MMOLECULE" Collapsed="true">
+    <Position X="124.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAFAECAAAQCAAQBBACQgAAAQABABAACBgIAIQA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_coarse_grain_::CGSM" Collapsed="true">
+    <Position X="18.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgFAABAAAAAAAAAAABBAAAAAAAAAAAAAAABAIAAAA=</HashCode>
+      <FileName>TAMD\cg-mm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_dipole_distribution_::DIPOLE_DISTRBT_THREAD_VAR&lt;MM, CLUSTER&gt;" Collapsed="true">
+    <Position X="12.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAABAgEAAAAAAIAAAAA=</HashCode>
+      <FileName>TAMD\dipole-distrbt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_dipole_distribution_::DIPOLE_DISTRIBT_VAR" Collapsed="true">
+    <Position X="7.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAEAAAAABAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>TAMD\dipole-distrbt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_distribution_::DISTRIBT&lt;Tx, Ty&gt;" Collapsed="true">
+    <Position X="108.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIBAAEEQAIAAAAAAAAAgACACAAWAAABAJgAAAABAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_distribution_::NDISTRIBT&lt;Tx, Ty&gt;" Collapsed="true">
+    <Position X="122.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAAAQAEgAAAAAAAAAAAAQAAAAAAQA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::DISTRIBT_MU_THREAD_VARS" Collapsed="true">
+    <Position X="75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABAAgAEEEAAgAAAAEEAAAAAAEAAAQAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::DISTRIBT_ORT_THREAD_VARS" Collapsed="true">
+    <Position X="84" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAAAAAAAAEEAAAAAEEAAAQAAAAAAAI=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::DISTRIBT_RELORT_THREAD_VARS" Collapsed="true">
+    <Position X="86.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQAAAAAAAAAAABAAAAEEAAAAAAEAAAQAAAAAAAI=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::DISTRIBT_LOCAL_DIPOLE_THREAD_VARS" Collapsed="true">
+    <Position X="63.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAEEQAEAAAEgIASAAAABAAI=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::TA_DISTRIBT&lt;Tx, Ty&gt;" Collapsed="true">
+    <Position X="115.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQAAAAAAAAAAAAEAgAAQAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_cluster_distribution_::DISTRIBT_CLUSTER_TA_THREAD_VARS" Collapsed="true">
+    <Position X="66" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAIAAAAgAAAAAAAAAAEEAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_erdf_::NEIGHBOR_ERDF_THREAD_VAR&lt;MM, CLUSTER, CMM_CLUSTER&gt;" Collapsed="true">
+    <Position X="10.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAQAAAAAAAAACAAAAAAAAACAAhAA=</HashCode>
+      <FileName>TAMD\e-rdf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_erdf_::NEIGHBOR_ERDF_VAR" Collapsed="true">
+    <Position X="5.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAQAAAAQAAAAAAAAAAAAAACAAgAA=</HashCode>
+      <FileName>TAMD\e-rdf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_evatom_::_VQatom" Collapsed="true">
+    <Position X="23.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAEAACAAAAAAAAAEAAAAgCIBEgAAAAA=</HashCode>
+      <FileName>TAMD\EwaldSum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_evatom_::_VMUatom" Collapsed="true">
+    <Position X="23.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>TAMD\EwaldSum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_evatom_::_VE_CELL&lt;atom&gt;" Collapsed="true">
+    <Position X="1.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAEAAAAAAFAACAAAAgAAAAAAAAABAAAAQAAA=</HashCode>
+      <FileName>TAMD\EwaldSum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_real_::EwaldSumRealVars0" Collapsed="true">
+    <Position X="15.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACgAAAAAAAACAABgAAAQkgAAAACAACIBAgAAAUA=</HashCode>
+      <FileName>TAMD\EwaldSumVar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_real_::EwaldSumRealVars1" Collapsed="true">
+    <Position X="15.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAAAAMAIgIAAAAAAAABACAgAIQAAAAAgA=</HashCode>
+      <FileName>TAMD\EwaldSumVar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_real_::EwaldSumRealVars2" Collapsed="true">
+    <Position X="15.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAQAAAAIAAACAAAAAAABAIAAAAAAAQ=</HashCode>
+      <FileName>TAMD\EwaldSumVar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_real_::GC_SPME_VAR" Collapsed="true">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interact_gc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_real_::SPME_VAR" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAGQAAAAACAAAAAAQAAAAAAQA=</HashCode>
+      <FileName>TAMD\spme_interact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_Thole_polarize_::TholeCorrTensor" Collapsed="true">
+    <Position X="117.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACggAAAAAEABAAAAAgAAAAAAAAAAQAAIAAAAAAAA=</HashCode>
+      <FileName>TAMD\EwaldSumVar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_rand_::GaussRand2" Collapsed="true">
+    <Position X="108.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_rand_::RAND_ARRAY&lt;T&gt;" Collapsed="true">
+    <Position X="117.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACAAAAAAAAAAAAAAAAACAgAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\Interaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_interface_constraint_::INTERFACE_CONSTRAINT" Collapsed="true">
+    <Position X="124.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAABAAAABAQAgAAgAAAAAAAA=</HashCode>
+      <FileName>TAMD\interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_md_analysis_::AnalysisThread&lt;VAR, RES&gt;" Collapsed="true">
+    <Position X="104.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\md_analysis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_pmf_constraint_::PMF_CONSTRAINT" Collapsed="true">
+    <Position X="110.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBgAAAAAAAIAAAAAAAgIAAABCAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>TAMD\pmf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::cNeighbor&lt;T&gt;" Collapsed="true">
+    <Position X="108.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAACAAAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::cNeighbors&lt;T&gt;" Collapsed="true">
+    <Position X="110.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgAAAAAAQAAAAAAAAAAAAgAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::_VIRTUAL_CLUSTER&lt;DERIVED_CLASS&gt;" Collapsed="true">
+    <Position X="23.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAIAAACAAAAAEAAAAAAAAACAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::VIRTUAL_MONOMER&lt;T&gt;" Collapsed="true">
+    <Position X="23.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAACAAAAAAAAAAAAQAAAAAAIAAABAAAAAAg=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::HINGE_INDX" Collapsed="true">
+    <Position X="119" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::VM_VAR&lt;MM&gt;" Collapsed="true">
+    <Position X="115.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAQQAAAAAIAAAAEIBAAgAAAAgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::MM_VM&lt;MM, CLUSTER&gt;" Collapsed="true">
+    <Position X="122.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAEAAIAAAAAAAAABAAAAgCAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::NEIGHBOR_RDF_THREAD_VAR&lt;MM, CLUSTER&gt;" Collapsed="true">
+    <Position X="11.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAAAAgAAAAAAAAAQAAAAAgQAAAAAQAAAgAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::NEIGHBOR_RDF_VAR" Collapsed="true">
+    <Position X="6.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAQAAAAQAAAAAQAABgAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::SINGLE_MM_RDF_THREAD_VAR&lt;RDF_THREAD_VAR&gt;" Collapsed="true">
+    <Position X="61.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAEAAAIAAIAAEAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::MULTI_MM_RDF_THREAD_VAR&lt;MD_CELL, MM_VM, RDF_THREAD_VAR&gt;" Collapsed="true">
+    <Position X="88.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAEABAAAAACIEAAAAAAAAAAAAAAGAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::MULTI_NEIGHBOR_RDF_VAR" Collapsed="true">
+    <Position X="120.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAkEAAAgAAAAAAAAAACAQgACAgAAgAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_MM_rdf_::NEIGHBOR_RDF_CORRELATION_THREAD_VAR&lt;MM, CLUSTER&gt;" Collapsed="true">
+    <Position X="124.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAkAAAggAAAAAAAAQAAAQgESAgIAgAAAAgAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::VATOM" Collapsed="true">
+    <Position X="108.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgBAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::VATOM1" Collapsed="true">
+    <Position X="112" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgBAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::VATOM_CELL&lt;VATOM&gt;" Collapsed="true">
+    <Position X="110.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::CORREL_DISTRIBT" Collapsed="true">
+    <Position X="119" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAAAEAAAAAAAAAAAAgAAAABAAAQAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::CORRELATION_THREAD_VAR&lt;VCELL&gt;" Collapsed="true">
+    <Position X="120.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coordinate_correlation::CORREL_THREAD" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\rdf-distribt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_::__VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="0.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_::_VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="0.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAsIAAACAAQgAAAAAAACAAAAgoEAIggUlggFIAABA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_::VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="0.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAEIAAAAAAAAAAAgAAAAAAoAAgQgACA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_::RECP_SPME_RES" Collapsed="true">
+    <Position X="122.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAEAAAAAEQAAAAAgAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_::ERECP_SPME_VAR" Collapsed="true">
+    <Position X="113.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAEAIAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\spme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::__VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="2.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::_VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="2.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAsIAAACAAQgEAAAAAACAAAAgoEAIggUlggFIAABA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::VSPME&lt;atom&gt;" Collapsed="true">
+    <Position X="2.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAEIAAAAAAAAAAAgAAAAAAoAAgQgACA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::RECP_SPME_RES" Collapsed="true">
+    <Position X="120.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAEAAAAAEQAAAAAgAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::ERECP_SPME_VAR" Collapsed="true">
+    <Position X="112" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAEAIAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::VSPME_ImageSlab&lt;atom&gt;" Collapsed="true">
+    <Position X="2.75" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAIEAAAAAQBAAAEAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\spme_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::SPME_VAR" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>TAMD\spme_interact_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_spme_2d_::E2dInteractVar" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAACQAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\spme_interact_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_EwaldSum_2d_::EwaldSumRecpK0Var" Collapsed="true">
+    <Position X="115.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAACEAAEAAAAQACQAAgAAAAAKQAAMAIAAoAAg=</HashCode>
+      <FileName>TAMD\spme_interact_2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WHAM_::DISTRIBT" Collapsed="true">
+    <Position X="19.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAIBgAAAAAAA=</HashCode>
+      <FileName>TAMD\wham.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WHAM_::WHAM_DISTRIBT" Collapsed="true">
+    <Position X="19.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABgAA=</HashCode>
+      <FileName>TAMD\wham.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WHAM_::CombPt&lt;T, INDX&gt;" Collapsed="true">
+    <Position X="113.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAA=</HashCode>
+      <FileName>TAMD\wham.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WHAM_::PtIndx" Collapsed="true">
+    <Position X="113.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>TAMD\wham.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WHAM_::WHAM" Collapsed="true">
+    <Position X="117.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAAAIAAAAAAQQAAAAAAAAAAQAAQAAAAAAAEAAA=</HashCode>
+      <FileName>TAMD\wham.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_cluster_distribution_::MONOMER_ATOM_INDX" Collapsed="true">
+    <Position X="106.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_cluster_distribution_::VECT_IN_MONOMER" Collapsed="true">
+    <Position X="108.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="_cluster_distribution_::DISTRIBT_DIPOLE_PVOID" Collapsed="true">
+    <Position X="108.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="_cluster_distribution_::DISTRIBT_ORT_PVOID" Collapsed="true">
+    <Position X="112" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="_cluster_distribution_::DISTRIBT_RELORT_PVOID" Collapsed="true">
+    <Position X="113.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="_cluster_distribution_::DISTRIBT_LOCAL_DIPOLE_PVOID" Collapsed="true">
+    <Position X="110.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="_cluster_distribution_::DISTRIBT_CLUSTER_TORSION_ANGLE_PVOID" Collapsed="true">
+    <Position X="106.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAMD\distribution.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

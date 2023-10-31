@@ -1,0 +1,132 @@
+; NEIMOMD_DLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NEIMOMD_DLL"
+
+EXPORTS
+    ; Explicit exports can go here
+
+run                              @1
+
+set_main_frame                   @2
+
+set_md_mode                      @3
+
+set_job                          @4
+
+construct_macromolecule          @5
+
+MD_SIM                           @6
+
+running_md                       @7
+
+stop_md                          @8
+
+get_molecule_struct              @9
+
+get_errmsg                       @10
+
+get_mol_struct_over              @11
+
+set_show_infor                   @12
+
+get_show_infor                   @13
+
+create_infor_dialog              @14
+
+get_single_md_proc               @15
+
+show_single_md_proc              @16
+
+show_mol_operate_dialog          @17
+
+get_molecule                     @18
+
+get_atom_bound                   @19
+
+get_total_atom_number            @20
+
+init_env                         @21
+
+clear_env                        @22
+
+
+init_read_mdproc                 @23
+
+serial_md_proc                   @24
+
+set_scatt                        @25
+
+get_total_scatt_atom_number      @26
+
+get_molecule_scatt_struct        @27
+
+set_pickup_monomer               @28
+
+add_pickup_monomer               @29
+
+periodic_cell_check              @30
+
+; to get single macro-molecule's scattering atoms
+
+get_macromol_scatt_atom_number   @31
+
+get_macromol_scatt_struct        @32
+
+
+; orientation
+
+dipole_distribution              @33
+
+orientation_distribution         @34
+
+relative_orientation_distribution  @35
+
+dipole_local_orientation         @36
+
+cluster_torsion_angle            @37
+
+combine_clusters                 @38
+
+MultiSaveConfigXYZ               @39
+
+init_cgatom_scatt                @40
+
+single_mm_neighbor_rdf_single_chain_block_copolymer       @41
+multi_mm_neighbor_rdf_single_chain_block_copolymer        @42
+single_mm_non_neighbor_rdf_single_chain_block_copolymer   @43
+multi_mm_non_neighbor_rdf_single_chain_block_copolymer    @44
+multi_mm_non_neighbor_sm_rdf_single_chain_block_copolymer    @45
+multi_mm_nsm_rdf_single_chain_block_copolymer             @46
+
+single_cgmm_neighbor_rdf_single_chain_block_copolymer       @47
+multi_cgmm_neighbor_rdf_single_chain_block_copolymer        @48
+single_cgmm_non_neighbor_rdf_single_chain_block_copolymer   @49
+multi_cgmm_non_neighbor_rdf_single_chain_block_copolymer    @50
+multi_cgmm_non_neighbor_sm_rdf_single_chain_block_copolymer    @51
+multi_cgmm_nsm_rdf_single_chain_block_copolymer             @52
+
+single_cgmm_neighbor_crdf_single_chain_block_copolymer      @53
+
+single_mm_neighbor_erdf_single_chain_block_copolymer        @54
+multi_mm_neighbor_erdf_single_chain_block_copolymer         @55
+single_mm_non_neighbor_erdf_single_chain_block_copolymer    @56
+multi_mm_non_neighbor_erdf_single_chain_block_copolymer     @57
+
+single_mm_dipole_distrbt_single_chain_block_copolymer       @58
+multi_mm_dipole_distrbt_single_chain_block_copolymer        @59
+
+atomic_correlation_single_thread                            @60
+atomic_correlation_multi_thread                             @61
+
+atomic_2d_correlation_single_thread                         @62
+
+MultiSaveConfigXYZ_interested_cluster                       @63
+
+cluster_spatial_distribution                                @64
+
+; PMF calculation
+cal_biased_potential                                        @65
+wham_pmf                                                    @66
+
+
+velocity_auto_correlation                                   @67

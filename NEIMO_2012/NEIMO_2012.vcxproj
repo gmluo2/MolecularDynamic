@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{094D5FAD-2281-4A9E-AA6E-2116BCAD51C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29511.113</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Studio\FFTW\x32;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Studio\FFTW\x32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;NEIMO_2012_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libfftw3-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)NEIMOMD_DLL.dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Studio\FFTW;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\NEIMOMD_DLL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NEIMO_2012_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="export.h" />
+    <ClInclude Include="export1.h" />
+    <ClInclude Include="MDInforDlg.h" />
+    <ClInclude Include="MolOperateDlg.h" />
+    <ClInclude Include="NEIMOMD_DLL.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tamd\amber_pars.h" />
+    <ClInclude Include="tamd\atom.h" />
+    <ClInclude Include="TAMD\atom_sr.h" />
+    <ClInclude Include="TAMD\atom_sr_interact.h" />
+    <ClInclude Include="tamd\auto_correlation.h" />
+    <ClInclude Include="tamd\bound.h" />
+    <ClInclude Include="tamd\cg-cluster.h" />
+    <ClInclude Include="tamd\cg-cmm.h" />
+    <ClInclude Include="tamd\cg-md-cell.h" />
+    <ClInclude Include="tamd\cg-md.h" />
+    <ClInclude Include="tamd\cg-mm.h" />
+    <ClInclude Include="tamd\cg-mpi-md-cell.h" />
+    <ClInclude Include="tamd\cg-rdf.h" />
+    <ClInclude Include="tamd\cgmd_polymer.h" />
+    <ClInclude Include="tamd\cluster.h" />
+    <ClInclude Include="tamd\CMM.h" />
+    <ClInclude Include="tamd\CMM_2d.h" />
+    <ClInclude Include="tamd\command.h" />
+    <ClInclude Include="tamd\complex.h" />
+    <ClInclude Include="tamd\def.h" />
+    <ClInclude Include="tamd\dipole-distrbt.h" />
+    <ClInclude Include="tamd\distribute.h" />
+    <ClInclude Include="tamd\distribution.h" />
+    <ClInclude Include="tamd\dstruct.h" />
+    <ClInclude Include="tamd\dstruct1.h" />
+    <ClInclude Include="tamd\e-rdf.h" />
+    <ClInclude Include="tamd\EwaldSum.h" />
+    <ClInclude Include="tamd\EwaldSumVar.h" />
+    <ClInclude Include="tamd\fmd_cell.h" />
+    <ClInclude Include="tamd\gcmd.h" />
+    <ClInclude Include="TAMD\gpu_md_cell.h" />
+    <ClInclude Include="TAMD\gpu_slab.h" />
+    <ClInclude Include="tamd\Interact-def.h" />
+    <ClInclude Include="tamd\Interact1.h" />
+    <ClInclude Include="tamd\Interact2.h" />
+    <ClInclude Include="tamd\Interact3.h" />
+    <ClInclude Include="tamd\Interact4.h" />
+    <ClInclude Include="tamd\Interaction.h" />
+    <ClInclude Include="tamd\Interaction1.h" />
+    <ClInclude Include="tamd\Interact_gc.h" />
+    <ClInclude Include="tamd\interface.h" />
+    <ClInclude Include="tamd\log.h" />
+    <ClInclude Include="tamd\Matrix.h" />
+    <ClInclude Include="tamd\MD.h" />
+    <ClInclude Include="tamd\mdcell-nhc.h" />
+    <ClInclude Include="tamd\mdcell_nhc.h" />
+    <ClInclude Include="tamd\mdvar.h" />
+    <ClInclude Include="tamd\md_analysis.h" />
+    <ClInclude Include="tamd\md_cell.h" />
+    <ClInclude Include="tamd\md_module.h" />
+    <ClInclude Include="tamd\MD_POLYMER.h" />
+    <ClInclude Include="tamd\MD_SM.h" />
+    <ClInclude Include="tamd\MM.h" />
+    <ClInclude Include="tamd\mol-cell.h" />
+    <ClInclude Include="tamd\Mol.h" />
+    <ClInclude Include="tamd\mpi_md.h" />
+    <ClInclude Include="tamd\mpi_md_cell.h" />
+    <ClInclude Include="tamd\NEIMO.h" />
+    <ClInclude Include="tamd\nhc.h" />
+    <ClInclude Include="tamd\NPT_MD.h" />
+    <ClInclude Include="tamd\pmf.h" />
+    <ClInclude Include="tamd\prof-old.h" />
+    <ClInclude Include="tamd\prof.h" />
+    <ClInclude Include="tamd\project.h" />
+    <ClInclude Include="tamd\ranlib.h" />
+    <ClInclude Include="tamd\rdf-distribt.h" />
+    <ClInclude Include="tamd\read.h" />
+    <ClInclude Include="tamd\ReadMDProc.h" />
+    <ClInclude Include="tamd\show.h" />
+    <ClInclude Include="tamd\show_md.h" />
+    <ClInclude Include="tamd\slab_md.h" />
+    <ClInclude Include="tamd\spme.h" />
+    <ClInclude Include="tamd\spme_2d.h" />
+    <ClInclude Include="tamd\spme_interact.h" />
+    <ClInclude Include="tamd\spme_interact_2d.h" />
+    <ClInclude Include="tamd\sr.h" />
+    <ClInclude Include="tamd\test.h" />
+    <ClInclude Include="tamd\time.h" />
+    <ClInclude Include="tamd\tools.h" />
+    <ClInclude Include="tamd\var.h" />
+    <ClInclude Include="tamd\vector.h" />
+    <ClInclude Include="tamd\vmd_cell.h" />
+    <ClInclude Include="tamd\wham.h" />
+    <ClInclude Include="tamd\ZMatrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NEIMOMD_DLL.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug\BuildLog.htm" />
+    <None Include="NEIMOMD_DLL.def" />
+    <None Include="res\NEIMOMD_DLL.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="export.cpp" />
+    <ClCompile Include="export1.cpp" />
+    <ClCompile Include="MDInforDlg.cpp" />
+    <ClCompile Include="MolOperateDlg.cpp" />
+    <ClCompile Include="NEIMOMD_DLL.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tamd\amber_pars.cpp" />
+    <ClCompile Include="tamd\atom.cpp" />
+    <ClCompile Include="TAMD\atom_sr.cpp" />
+    <ClCompile Include="TAMD\atom_sr_interact.cpp" />
+    <ClCompile Include="TAMD\atom_sr_interact_3d.cpp" />
+    <ClCompile Include="tamd\auto_correlation.cpp" />
+    <ClCompile Include="tamd\bound.cpp" />
+    <ClCompile Include="tamd\cg-cluster.cpp" />
+    <ClCompile Include="tamd\cg-cmm.cpp" />
+    <ClCompile Include="tamd\cg-md-cell.cpp" />
+    <ClCompile Include="tamd\cg-md.cpp" />
+    <ClCompile Include="tamd\cg-mm.cpp" />
+    <ClCompile Include="tamd\cg-mpi-md-cell.cpp" />
+    <ClCompile Include="tamd\cg-rdf.cpp" />
+    <ClCompile Include="tamd\cgmd_polymer.cpp" />
+    <ClCompile Include="tamd\cluster.cpp" />
+    <ClCompile Include="tamd\cluster1.cpp" />
+    <ClCompile Include="tamd\CMM.cpp" />
+    <ClCompile Include="tamd\CMM_2d.cpp" />
+    <ClCompile Include="tamd\com.cpp" />
+    <ClCompile Include="tamd\command.cpp" />
+    <ClCompile Include="tamd\complex.cpp" />
+    <ClCompile Include="tamd\dipole-distrbt.cpp" />
+    <ClCompile Include="tamd\distribution.cpp" />
+    <ClCompile Include="tamd\e-rdf.cpp" />
+    <ClCompile Include="tamd\EwaldSum.cpp" />
+    <ClCompile Include="tamd\fmd_cell.cpp" />
+    <ClCompile Include="tamd\gcmd.cpp" />
+    <ClCompile Include="TAMD\gpu_md_cell.cpp" />
+    <ClCompile Include="TAMD\gpu_slab.cpp" />
+    <ClCompile Include="TAMD\gpu_slab_module.cpp" />
+    <ClCompile Include="tamd\Interact1.cpp" />
+    <ClCompile Include="tamd\Interact2.cpp" />
+    <ClCompile Include="tamd\Interact3.cpp" />
+    <ClCompile Include="tamd\Interact4.cpp" />
+    <ClCompile Include="tamd\Interaction.cpp" />
+    <ClCompile Include="tamd\Interaction1.cpp" />
+    <ClCompile Include="tamd\Interact_gc.cpp" />
+    <ClCompile Include="tamd\interface.cpp" />
+    <ClCompile Include="tamd\linpack.cpp" />
+    <ClCompile Include="tamd\main.cpp" />
+    <ClCompile Include="tamd\Matrix.cpp" />
+    <ClCompile Include="tamd\MD.cpp" />
+    <ClCompile Include="tamd\md_cell.cpp" />
+    <ClCompile Include="tamd\MD_POLYMER.cpp" />
+    <ClCompile Include="tamd\MD_POLYMER1.cpp" />
+    <ClCompile Include="tamd\MD_SM.cpp" />
+    <ClCompile Include="tamd\MM.cpp" />
+    <ClCompile Include="tamd\mol-cell.cpp" />
+    <ClCompile Include="tamd\Mol.cpp" />
+    <ClCompile Include="tamd\mpi_md.cpp" />
+    <ClCompile Include="tamd\mpi_md_cell.cpp" />
+    <ClCompile Include="tamd\NEIMO.cpp" />
+    <ClCompile Include="tamd\nhc.cpp" />
+    <ClCompile Include="tamd\NPT_MD.cpp" />
+    <ClCompile Include="tamd\pmf.cpp" />
+    <ClCompile Include="tamd\pmf_mdcell.cpp" />
+    <ClCompile Include="tamd\prof.cpp" />
+    <ClCompile Include="tamd\ranlib.cpp" />
+    <ClCompile Include="tamd\rdf-distribt.cpp" />
+    <ClCompile Include="tamd\read.cpp" />
+    <ClCompile Include="tamd\ReadMDProc.cpp" />
+    <ClCompile Include="tamd\show.cpp" />
+    <ClCompile Include="tamd\show_md.cpp" />
+    <ClCompile Include="tamd\slab_md.cpp" />
+    <ClCompile Include="tamd\slab_module.cpp" />
+    <ClCompile Include="tamd\spme.cpp" />
+    <ClCompile Include="tamd\spme_2d.cpp" />
+    <ClCompile Include="tamd\spme_interact.cpp" />
+    <ClCompile Include="tamd\spme_interact_2d.cpp" />
+    <ClCompile Include="tamd\sr.cpp" />
+    <ClCompile Include="tamd\test.cpp" />
+    <ClCompile Include="tamd\time.cpp" />
+    <ClCompile Include="tamd\tools.cpp" />
+    <ClCompile Include="tamd\vector.cpp" />
+    <ClCompile Include="tamd\vmd_cell.cpp" />
+    <ClCompile Include="tamd\wham.cpp" />
+    <ClCompile Include="tamd\ZMatrix.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

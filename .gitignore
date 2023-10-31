@@ -1,0 +1,7 @@
+.vs/
+_UpgradeReport_Files/
+Debug/
+Release/
+
+*.obj
+*.lnk
